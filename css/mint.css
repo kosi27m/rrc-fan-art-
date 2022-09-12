@@ -1,0 +1,28 @@
+body{
+background-color: rgb(24, 24, 53);
+color:white;
+}
+
+button{
+    color:black;
+    background-color:white;
+    width: 300px;
+    border:none;
+    white-space:nowrap;
+    height: 48px;
+    border-radius: 11px;
+    font-size: 20px;
+}
+
+nav{
+    display:flex;
+    gap:2em;
+    margin-top:8em;
+    justify-content:center;
+}
+
+nav div{
+    padding-top:10em;
+}
+
+

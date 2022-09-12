@@ -1,0 +1,157 @@
+body {
+    background-color: rgb(24, 24, 53);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    position:fixed;
+    margin:0;
+}
+
+
+nav .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+
+}
+
+
+nav .navbar {
+    display: flex;
+    gap: 2em;
+}
+
+
+nav .navbar li {
+    list-style: none;
+}
+
+nav .navbar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+nav a:hover{
+    transform:translateY(10px);
+}
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    padding:0px 5px;
+    margin-top:-2px;
+    border-radius: 10px;
+    line-height:2em;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+nav .icon {
+    display: flex;
+    gap: 1em;
+}
+
+
+.content-1{
+    padding:6em;
+    display:flex;
+    justify-content:center;
+    gap:2em;
+}
+
+.content-1 section{
+    font-size:16px;
+    padding-top:6em;
+}
+
+
+.content-3 .nft{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:2em;
+    margin-left:4em;
+    margin-top:12em;
+}
+
+.content-3 .community-art{
+    margin-top:12em;
+}
+
+.content-3 .fan-art{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:2em;
+    margin-left:4em;
+    margin-top:2em;
+}
+
+
+.team{
+    margin-top:5em;
+}
+
+.team div{
+   display:flex;
+   justify-content:center;
+   gap:1em;
+   margin-top:2em;
+}
+
+.team div .founder{
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid black;
+    color: white;
+    font-size: 9px;
+    font-family: cursive;
+    width: 100px;
+    height: 55px;
+    margin-top: 10px;
+    background-color: rgb(73, 71, 71);
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-left:5px;
+    gap: 1em;
+    align-items:center;
+}
+
+.team a{
+    color:white;
+    text-decoration:none;
+}
+
+
+.creator{
+    display:flex;
+    justify-content:center;
+    gap:1em;
+    margin-top:3em;
+    padding:5px;
+    align-items:center;
+}
+
+
+
+
+
+
+
+
+
+
